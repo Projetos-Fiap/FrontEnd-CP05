@@ -55,12 +55,12 @@ function Nav() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <NavLink to="#">
+              <NavLink to="/Carrinho">
                 <h6 className={styles.tlink1}>Carrinho</h6>
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="#" className="bi bi-person-circle">
+              <NavLink to="/Login" className="bi bi-person-circle">
                 <h6 className={styles.tlink1}>Login</h6>
               </NavLink>
             </li>
