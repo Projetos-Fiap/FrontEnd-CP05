@@ -14,6 +14,8 @@ import Feminino from './Feminino.jsx'
 import Outlet from './Outlet.jsx'
 import Carrinho from './Carrinho.jsx'
 import Login from './Login.jsx'
+import Cadastro from './Cadastro.jsx'
+
 
  /* criando a função createBrowser */
 const router =createBrowserRouter([
@@ -32,6 +34,7 @@ children:[
   {path: '/Outlet', element:<Outlet />},
   {path: '/Carrinho', element:<Carrinho />},
   {path: '/Login', element:<Login />},
+  {path: '/Cadastro', element:<Cadastro />},
 ]
 
 }
