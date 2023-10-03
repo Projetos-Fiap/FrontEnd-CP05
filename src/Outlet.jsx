@@ -17,6 +17,7 @@ const PageTitle = styled.h1`
   text-align: center;
   color: #000000;
   margin-bottom: 1em;
+  margin-top: 2em;
 `;
 
 const CarouselContainer = styled(Carousel)`
@@ -32,7 +33,7 @@ const StyledImage = styled.img`
 
 const Outlet = () => {
   return (
-    <div>
+    <div className='OutletPage'>
       <PageTitle>Outlet</PageTitle>
       <CarouselContainer>
         <Carousel data-bs-theme="dark">
