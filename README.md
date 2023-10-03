@@ -1,9 +1,14 @@
-# Foi criado o projeto React + vite
+# Front-End - Checkpoint 5
 
-#pacotes instalados
- npm install react-router-dom
- npm install react-bootstrap
+## Grupo
+<li> André Lambert - 1ESPW </li>
+<li> Lucas Feijó - 1ESPW </li>
+<li> Vitor Maia - 1ESPW </li>
 
- foi utilizado também css modules
- criação de rotas com RouterProvider
- também possui um componente Error
+## Pacotes instalados
+<li> react-router-dom </li>
+<li> react-bootstrap </li>
+<li> styled-components </li>
+
+## Como executar
+Primeiro rode npm install, seguido por npm run dev

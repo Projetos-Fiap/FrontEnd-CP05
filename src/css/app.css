@@ -1,0 +1,7 @@
+.MasculinoPage,
+.FemininoPage,
+.CasualPage,
+.OutletPage {
+    height: 100vh; 
+    display: block;
+}

@@ -1,11 +1,12 @@
 import {} from 'react';
-import Nav from './Nav';
+import NavExample from './components/Nav';
 import { Outlet } from 'react-router-dom';
+import './css/app.css';
 
 function App() {
   return (
     <>
-        <Nav />
+        <NavExample />
         <Outlet/>
     </>
   );
