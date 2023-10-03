@@ -17,7 +17,7 @@ const PageTitle = styled.h1`
   text-align: center;
   color: #000000;
   margin-bottom: 1em;
-  margin-top: 2em;
+  margin-top: 1em;
 `;
 
 const CarouselContainer = styled(Carousel)`
